@@ -93,10 +93,17 @@ a:hover{
 
 @media(max-width:600px){
 
-    main{
-        height: 96vh;
-        width: 80vw;
-        position: relative;
+    div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -40%);
+        background-color: var(--cor1);
+        height:300px ;
+        width: 270px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+    
     }
     }
 
