@@ -91,5 +91,15 @@ a:hover{
     
 }
 
+@media(max-width:600px){
+
+    main{
+        height: 96vh;
+        width: 80vw;
+        position: relative;
+    }
+    }
+
+
 
 
